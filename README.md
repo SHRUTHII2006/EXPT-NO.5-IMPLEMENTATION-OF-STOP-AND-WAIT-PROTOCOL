@@ -1,4 +1,4 @@
-# EX.NO: 5 IMPLEMENTATION OF STOP AND WAIT PROTOCOL
+<img width="1600" height="1274" alt="image" src="https://github.com/user-attachments/assets/c953a770-29e7-4afd-b274-6e9921d07ff3" /># EX.NO: 5 IMPLEMENTATION OF STOP AND WAIT PROTOCOL
 
 # AIM
 To implement Stop and Wait protocol using NS2 program.
@@ -8,18 +8,29 @@ To implement Stop and Wait protocol using NS2 program.
 2.	NS2 Software
 
 # ALGORITHM
+
 Step 1: Start the program.
+
 Step 2: Declare the global variables ns for creating a new simulator. Step 3: Open the network animator file in the write mode.
+
 Step 4: Open the trace file in the write mode. Step 5: Transfer the packets in network.
+
 Step 6: Create the capable no of nodes.
+
 Step 7: Create the duplex-link between the nodes including the delay time, bandwidth and dropping queue mechanism.
+
 Step 8: Set a tcp connection for source node. Step 9: Set the destination node using tcp sink.
+
 Step 10: Set the window size and the packet size for the tcp. Step 11: Set up the ftp over the tcp connection.
+
 Step 12: Define the plot window and finish procedure.
+
 Step 13: In the definition of the finish procedure declare the global variables. Step 14: Close the trace file and namfile and execute the network animation file. Step 15: At the particular time call the finish procedure.
+
 Step 16: Stop the program.
  
 # PROGRAM
+```
 set ns [new Simulator]
 set namfile [open out.nam w]
 $ns namtrace-all $namfile proc finish {}
@@ -67,14 +78,10 @@ $ns at 3.1 "$ns trace-annotate \"FTP stops\""
 $ns at 0.0 "$n0 label Sender"
 $ns at 0.0 "$n1 label Receiver"
 $ns run
- 
+```
 # OUTPUT
 
-
-
-
-
-
+<img width="1600" height="1274" alt="WhatsApp Image 2026-09-17 at 11 06 29" src="https://github.com/user-attachments/assets/f16f5ac9-c306-4877-b8a5-cf6bfdf96015" />
 
 
 

@@ -1,4 +1,4 @@
-<img width="1600" height="1274" alt="image" src="https://github.com/user-attachments/assets/c953a770-29e7-4afd-b274-6e9921d07ff3" /># EX.NO: 5 IMPLEMENTATION OF STOP AND WAIT PROTOCOL
+# EX.NO: 5 IMPLEMENTATION OF STOP AND WAIT PROTOCOL
 
 # AIM
 To implement Stop and Wait protocol using NS2 program.
